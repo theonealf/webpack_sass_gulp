@@ -1,0 +1,32 @@
+{
+  "name": "webprojekt-gulp-sass",
+  "version": "1.0.0",
+  "description": "boilerplate för gulp och sass och webpack",
+  "main": "index.js",
+  "scripts": {
+    "test": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/theonealf"
+  },
+  "keywords": [
+    "gulp",
+    "webpack",
+    "sass"
+  ],
+  "author": "andreas.josefsson@frontdata.se",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.0.0",
+    "gulp-sourcemaps": "^1.9.1",
+    "webpack-stream": "^3.2.0"
+  },
+  "dependencies": {
+    "jquery": "^3.1.1"
+  }
+}
