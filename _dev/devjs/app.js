@@ -3,7 +3,7 @@ var $ = require("jquery");
 
 $(function(){
     $("#mainapp")
-        .html("!");
+        .html("funkar!");
         
 });
 console.log(msg);
