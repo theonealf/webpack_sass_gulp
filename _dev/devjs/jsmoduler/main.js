@@ -1,1 +1,6 @@
-alert("funkar");
+
+module.exports = {
+    testar: function (msg) {
+        alert(msg);
+    }
+}

@@ -2,8 +2,7 @@ var msg = require("./jsmoduler/main.js");
 var $ = require("jquery");
 
 $(function(){
-    $("#mainapp")
+    $("#mainapp").attr('style','background:#fff;')
         .html("funkar!");
-        
+    msg.testar("ja du det funkar");
 });
-console.log(msg);
